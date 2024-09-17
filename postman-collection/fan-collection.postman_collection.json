@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "d73dcaf1-9441-41af-8e32-2433d4abe740",
+		"name": "fan-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9577781"
+	},
+	"item": [
+		{
+			"name": "pull-chord-one",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pull-chord-1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pull-chord-1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pull-chord-two",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pull-chord-2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pull-chord-2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
